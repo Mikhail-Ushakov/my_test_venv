@@ -8,3 +8,5 @@ response = requests.get(url)
 
 with open('./pyt_is_cool.html', 'wb') as f:
     f.write(response.content)
+
+#add new line
